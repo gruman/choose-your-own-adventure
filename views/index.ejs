@@ -55,7 +55,7 @@
   async function changeRoom(num) {
     try {
       // Fetching data from the server with a POST request
-      const response = await fetch('http://localhost:8080/room', {
+      const response = await fetch('https://gruman-your-own-adventure.vercel.app/room', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
