@@ -1,0 +1,204 @@
+[
+  {
+    "id": 0,
+    "text": "Welcome to the thrilling world of legal battles! Meet Leslie Bibman, a brilliant attorney known for her sharp mind and distinctive scar. Today, Leslie finds herself in a high-stakes courtroom duel against her fierce rival, Julia Tanktop.",
+    "buttons": [
+      {
+        "text": "Begin the courtroom drama",
+        "room": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "text": "The courtroom is buzzing with anticipation as Leslie enters, donning a tailored suit that accentuates her scar. On the opposite side, Julia Tanktop, with her impeccable wardrobe and confident demeanor, eyes Leslie with disdain.",
+    "buttons": [
+      {
+        "text": "Present your case",
+        "room": 2
+      },
+      {
+        "text": "Exchange fiery glares with Julia",
+        "room": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Leslie presents her case with eloquence and precision. The jury is captivated by her compelling arguments. Julia, sensing the pressure, interrupts with a dramatic objection. How will you respond?",
+    "buttons": [
+      {
+        "text": "Counter the objection with legal brilliance",
+        "room": 4
+      },
+      {
+        "text": "Silence Julia with a witty retort",
+        "room": 5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Ignoring Julia's fiery glares, Leslie remains focused on the case. The judge observes the tension and urges both attorneys to proceed professionally. What's your next move in this legal showdown?",
+    "buttons": [
+      {
+        "text": "Unleash a surprise witness",
+        "room": 6
+      },
+      {
+        "text": "Present a compelling piece of evidence",
+        "room": 7
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Leslie counters Julia's objection with legal brilliance, leaving the courtroom in awe of her expertise. The jury seems swayed in Leslie's favor. What will be your next strategic move?",
+    "buttons": [
+      {
+        "text": "Call a surprise witness",
+        "room": 6
+      },
+      {
+        "text": "Reveal a shocking piece of evidence",
+        "room": 7
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Silencing Julia with a witty retort, Leslie gains the upper hand in the courtroom banter. The jury chuckles, and even the judge suppresses a smile. How will you capitalize on this moment?",
+    "buttons": [
+      {
+        "text": "Call a surprise witness",
+        "room": 6
+      },
+      {
+        "text": "Reveal a shocking piece of evidence",
+        "room": 7
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Leslie calls a surprise witness to the stand, a mysterious figure with crucial information. The courtroom holds its breath as the witness delivers a bombshell revelation. How will you exploit this advantage?",
+    "buttons": [
+      {
+        "text": "Cross-examine the witness for maximum impact",
+        "room": 8
+      },
+      {
+        "text": "Rest your case and let the revelation linger",
+        "room": 9
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Revealing a shocking piece of evidence, Leslie watches as Julia's composure falters. The jury gasps at the revelation. What's your next move to secure victory in this courtroom drama?",
+    "buttons": [
+      {
+        "text": "Build on the shocking evidence with a powerful argument",
+        "room": 8
+      },
+      {
+        "text": "Let the shocking evidence speak for itself",
+        "room": 9
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Leslie masterfully cross-examines the surprise witness, extracting every crucial detail. The courtroom is spellbound by her skill. How will you capitalize on this momentum?",
+    "buttons": [
+      {
+        "text": "Deliver a closing statement that leaves an indelible impression",
+        "room": 10
+      },
+      {
+        "text": "Rest your case and trust in the power of your argument",
+        "room": 11
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "Letting the shocking evidence linger, Leslie gauges the impact on the jury and Julia. The tension in the courtroom is palpable. What's your strategic move to seal the deal?",
+    "buttons": [
+      {
+        "text": "Deliver a closing statement that leaves an indelible impression",
+        "room": 10
+      },
+      {
+        "text": "Rest your case and trust in the power of your argument",
+        "room": 11
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Leslie delivers a closing statement that leaves the courtroom in awe. Her words resonate with the jury, creating a compelling narrative. Victory seems within reach. What will you do to solidify your success?",
+    "buttons": [
+      {
+        "text": "Appeal to the emotions of the jury",
+        "room": 12
+      },
+      {
+        "text": "Rest confidently and await the verdict",
+        "room": 13
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "Resting the case, Leslie exudes confidence in the strength of her argument. The jury deliberates, and the courtroom is tense. How will you navigate the final moments of this courtroom drama?",
+    "buttons": [
+      {
+        "text": "Appeal to the emotions of the jury",
+        "room": 12
+      },
+      {
+        "text": "Rest confidently and await the verdict",
+        "room": 13
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "Leslie appeals to the emotions of the jury, delivering a heartfelt plea for justice. The tension in the courtroom reaches its peak. How will you bring this riveting courtroom drama to a close?",
+    "buttons": [
+      {
+        "text": "Wait anxiously for the jury's verdict",
+        "room": 14
+      },
+      {
+        "text": "Confront Julia with a final dramatic statement",
+        "room": 15
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Resting confidently, Leslie awaits the jury's verdict with poise. The courtroom is silent as the tension builds. What will be your final move in this legal showdown?",
+    "buttons": [
+      {
+        "text": "Confront Julia with a final dramatic statement",
+        "room": 15
+      },
+      {
+        "text": "Wait anxiously for the jury's verdict",
+        "room": 14
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "The jury delivers the verdict, and Leslie emerges victorious in this thrilling courtroom drama. Her scar becomes a symbol of resilience and triumph. Congratulations!",
+    "buttons": []
+  },
+  {
+    "id": 15,
+    "text": "Confronting Julia with a final dramatic statement, Leslie leaves the courtroom with a sense of closure. The verdict awaits, and the drama concludes with an air of uncertainty. What fate awaits Leslie Bibman?",
+    "buttons": []
+  }
+]

@@ -1,0 +1,112 @@
+/* Importing Google Fonts for Lato and Lora */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Lora:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* Global styling for the entire document */
+body * {
+  font-family: "Lora", Times, Arial, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #111;
+  font-size: 1.2rem;
+}
+
+/* Container styling for layout */
+.container {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+/* Header styling with border and spacing */
+header {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Styling for paragraphs inside the header */
+header p {
+  margin-bottom: 0;
+}
+
+/* Footer styling with border and spacing */
+footer {
+  border-top: 1px solid #aaa;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+}
+
+/* Heading 1 styling */
+h1 {
+  font-size: 1.7rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Heading 2 styling */
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/* Heading 3 styling */
+h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraph styling with line height and font size */
+p, p a {
+  margin-bottom: 1rem;
+  line-height: 1.8rem;
+  font-size: 1rem;
+}
+
+/* Anchor styling with font weight */
+a {
+  font-weight: 700;
+}
+
+/* Unordered list styling */
+ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+/* List item styling for genre selection */
+li {
+  list-style-type: none;
+  padding: 0.5rem;
+  background-color: #111;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+/* Hover effect for list items and buttons */
+li:hover, button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: #111;
+}
+
+/* Styling for buttons */
+button {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+/* Styling for the paragraph inside the 'room' class */
+.room p {
+  min-height: 150px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags for character set, viewport, title, and description -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose your own adventure Node tutorial</title>
+  <meta name="description" content="How to make and host a one-page Choose your own adventure app" />
+
+  <!-- Link to external stylesheet and meta keywords -->
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="keywords" content="choose, api, node, express, ejs">
+</head>
+
+<body>
+  <main class="container">
+    <!-- Header section with title and author information -->
+    <header>
+      <h1>Choose your own adventure</h1>
+      <p>by <a href="https://gruman.co">Matthew Gruman</a></p>
+    </header>
+
+    <!-- Genre selection with clickable list items -->
+    <h3>Genre:</h3>
+    <ul>
+      <!-- Click event triggers changeJSON function with genre number -->
+      <li onclick="changeJSON(2)">Lawyer</li>
+      <li onclick="changeJSON(1)">Comedy</li>
+      <li onclick="changeJSON(0)">Adventure</li>
+    </ul>
+
+    <!-- Adventure room section with text and buttons -->
+    <div class="room">
+      <h2>Room #2</h2>
+      <p>Text</p>
+      <!-- Click events trigger changeRoom function with button number -->
+      <button class="one" onclick="changeRoom(0)">Left</button>
+      <button class="two" onclick="changeRoom(1)">Right</button>
+    </div>
+
+    <!-- Footer section with attribution and link -->
+    <footer>
+      <p>Made with Node, Express, and EJS. <a href="https://">Learn how to make it</a>.</p>
+    </footer>
+  </main>
+</body>
+
+<!-- JavaScript script for handling room changes and genre selection -->
+<script>
+  // Initial room ID set to 1
+  let roomid = 1;
+
+  // Asynchronous function to change the room based on button clicks
+  async function changeRoom(num) {
+    try {
+      // Fetching data from the server with a POST request
+      const response = await fetch('http://localhost:8080/room', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ num, roomid }),
+      });
+      
+      // Parsing the response data as JSON
+      const data = await response.json();
+      
+      // Updating the DOM with room information
+      document.querySelector('.room h2').innerText = `Room #${data.id + 1}`;
+      document.querySelector('.room p').innerText = data.text;
+      document.querySelector('.room .one').innerText = data.buttons[0].text;
+      document.querySelector('.room .one').setAttribute('onclick', `changeRoom(${data.buttons[0].room})`);
+
+      // Hiding the second button by default
+      document.querySelector('.room .two').style.display = 'none';
+      
+      // Displaying the second button and updating its text and click event if available
+      if (data.buttons.length > 1) {
+        document.querySelector('.room .two').style.display = 'block';
+        document.querySelector('.room .two').innerText = data.buttons[1].text;
+        document.querySelector('.room .two').setAttribute('onclick', `changeRoom(${data.buttons[1].room})`);
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  // Function to set the room ID and initiate the changeRoom function
+  function changeJSON(num) {
+    roomid = num;
+    changeRoom(0);
+  }
+
+  // Initial room change on page load
+  changeRoom(0);
+</script>
+
+</html>

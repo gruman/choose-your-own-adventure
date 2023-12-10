@@ -1,0 +1,276 @@
+[
+  {
+    "id": 0,
+    "text": "You find yourself at a crossroads, and unfortunately, you made the wrong choice.",
+    "buttons": [
+      {
+        "text": "Turn around",
+        "room": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "text": "You enter a dark tunnel, desperately needing a flashlight. Fear creeps in as the darkness surrounds you. Suddenly, you spot a door. What will you do?",
+    "buttons": [
+      {
+        "text": "Open the door",
+        "room": 2
+      },
+      {
+        "text": "Stay still",
+        "room": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Upon entering, you find a mysterious paper on the floor. It simply says, \"Proceed.\"",
+    "buttons": [
+      {
+        "text": "Proceed",
+        "room": 4
+      },
+      {
+        "text": "Proceed cautiously",
+        "room": 4
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Choosing to stay still, you hear a strange noise behind you. What will you do?",
+    "buttons": [
+      {
+        "text": "Investigate the noise",
+        "room": 5
+      },
+      {
+        "text": "Remain still",
+        "room": 6
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "The door opens, revealing a room filled with glowing crystals. Three paths lie ahead. Which one will you choose?",
+    "buttons": [
+      {
+        "text": "Take the left path",
+        "room": 7
+      },
+      {
+        "text": "Take the middle path",
+        "room": 8
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "As you investigate the noise, a hidden passage is revealed. Will you explore it?",
+    "buttons": [
+      {
+        "text": "Explore the passage",
+        "room": 10
+      },
+      {
+        "text": "Ignore and press on",
+        "room": 11
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Staying still, the noise fades away, and you're left alone in the dark tunnel. What's your next move?",
+    "buttons": [
+      {
+        "text": "Continue forward",
+        "room": 12
+      },
+      {
+        "text": "Turn back",
+        "room": 13
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "The left path leads you to a magical garden with talking flowers. They offer you a magical potion. Will you drink it?",
+    "buttons": [
+      {
+        "text": "Drink the potion",
+        "room": 14
+      },
+      {
+        "text": "Decline and continue",
+        "room": 15
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "The middle path takes you to a room filled with mirrors. One mirror shows a reflection of a different world. What will you do?",
+    "buttons": [
+      {
+        "text": "Step through the mirror",
+        "room": 16
+      },
+      {
+        "text": "Stay in the room",
+        "room": 17
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "The right path leads to a treasure room with piles of gold and jewels. However, a dragon guards the treasure. What's your plan?",
+    "buttons": [
+      {
+        "text": "Try to sneak past the dragon",
+        "room": 18
+      },
+      {
+        "text": "Confront the dragon",
+        "room": 19
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Exploring the hidden passage reveals a secret room with a mysterious artifact. What will you do with the artifact?",
+    "buttons": [
+      {
+        "text": "Use the artifact",
+        "room": 18
+      },
+      {
+        "text": "Leave the artifact and continue",
+        "room": 19
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "Ignoring the hidden passage, you continue forward. The tunnel leads to a dead-end. What will you do now?",
+    "buttons": [
+      {
+        "text": "Turn back",
+        "room": 13
+      },
+      {
+        "text": "Search for another hidden passage",
+        "room": 10
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "Continuing forward, you encounter a mysterious figure offering a choice between two magical items. Which one will you choose?",
+    "buttons": [
+      {
+        "text": "Take the Crystal staff",
+        "room": 14
+      },
+      {
+        "text": "Choose the Enchanted amulet",
+        "room": 15
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Turning back, you find the tunnel has changed. It now leads to a different part of the dark maze. What will you do?",
+    "buttons": [
+      {
+        "text": "Explore the new path",
+        "room": 16
+      },
+      {
+        "text": "Attempt to find your way back",
+        "room": 17
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "Drinking the potion grants you the ability to communicate with animals. A helpful bird guides you to the exit. You've successfully escaped the dark maze!",
+    "buttons": [{
+        "text": "Turn around",
+        "room": 1
+      }]
+  },
+  {
+    "id": 15,
+    "text": "You decline the potion and continue your journey. The path leads to a mysterious portal. Will you enter the portal?",
+    "buttons": [
+      {
+        "text": "Enter the portal",
+        "room": 18
+      },
+      {
+        "text": "Keep going without entering",
+        "room": 19
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "Stepping through the mirror transports you to a parallel world. The rules here are different. What will you do in this strange new world?",
+    "buttons": [
+      {
+        "text": "Seek a way back to your world",
+        "room": 18
+      },
+      {
+        "text": "Explore the parallel world",
+        "room": 19
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Choosing to stay in the room, you discover a hidden passage behind one of the mirrors. Where does the passage lead?",
+    "buttons": [
+      {
+        "text": "Follow the passage",
+        "room": 18
+      },
+      {
+        "text": "Continue exploring the mirrors",
+        "room": 19
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "Your choices have led you to a critical moment. What will you do to overcome the challenges that lie ahead?",
+    "buttons": [
+      {
+        "text": "Face the challenges bravely",
+        "room": 19
+      },
+      {
+        "text": "Find a way to outsmart the challenges",
+        "room": 20
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "The final room presents the ultimate challenge. Your journey has prepared you for this moment. Face it with courage and determination!",
+    "buttons": [
+      {
+        "text": "Confront the final challenge",
+        "room": 20
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "Congratulations! You've successfully navigated through the dark maze, faced numerous challenges, and emerged victorious. Your adventure comes to an end, but who knows what awaits you in the next story...",
+    "buttons": [{
+        "text": "Turn around",
+        "room": 1
+      }]
+  }
+]
